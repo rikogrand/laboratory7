@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="themes">
+        <item>Dark</item>
+        <item>Default</item>
+    </string-array>
+    <string-array name="textSize">
+        <item> 12 </item>
+        <item> 24 </item>
+        <item> 36 </item>
+    </string-array>
+    <string-array name="fonts">
+        <item> Black </item>
+        <item> Red </item>
+        <item> Green </item>
+    </string-array>
+    <string-array name="languages">
+        <item> RU </item>
+        <item> ENG </item>
+        <item> DE </item>
+    </string-array>
+</resources>

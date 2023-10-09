@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    app:layoutManager="LinearLayoutManager"
+    tools:context=".fragments.FirstFragment"
+    android:name="com.example.myapplication.fragments.FirstFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<ListView
+    android:id="@+id/list"
+    android:name="com.example.myapplication.fragments.FirstFragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    app:layoutManager="LinearLayoutManager"
+    tools:context=".fragments.FirstFragment"
+    tools:listitem="@layout/fragment_first" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addGame"
+        android:text="Добавить"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/settingsBtn"
+        android:text="Настройки"
+        />
+
+
+</LinearLayout>
